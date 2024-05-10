@@ -1,0 +1,26 @@
+# Visualize Daily Incident Triggers
+
+## Query Information
+
+#### Description
+Visualize the daily triggers in MDE or Sentinel in a columnchart. This can give insight into spikes in the amount of triggers.
+## Microsoft Defender For Endpoint
+```kusto
+AlertInfo
+| where Timestamp > ago(30d)
+// Collect the first entry of each alert
+| summarize arg_min(Timestamp, *) by AlertId
+| summarize Total = count() by bin(Timestamp, 1d)
+| render columnchart with(title="Incident triggers last 30 days")
+```
+## Microsoft Sentinel
+```kusto
+SecurityIncident
+| where TimeGenerated > ago(30d)
+// Collect the first entry of each alert
+| summarize arg_min(TimeGenerated, *) by IncidentNumber
+| summarize Total = count() by bin(TimeGenerated, 1d)
+| render columnchart with(title="Incident triggers last 30 days")
+```
+## Tags
+- [[KQL]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
