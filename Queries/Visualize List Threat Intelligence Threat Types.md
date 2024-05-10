@@ -1,7 +1,5 @@
 # Visualize Threat Intelligence Threat Types
-
 ## Query Information
-
 #### Description
 The query can be used to visualize the different threat types you get from the MDTI connector to Sentinel. Some examples could be botnet, phishing, MaliciousUrl or from a watch list. This query can only be used in Sentinel. 
 #### References

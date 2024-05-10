@@ -1,5 +1,4 @@
 # Scattered Spider Defense Evasion via Conditional Access Policies Detection
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

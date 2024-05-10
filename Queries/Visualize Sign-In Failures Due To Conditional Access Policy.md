@@ -1,7 +1,5 @@
 # Visualize Sign-In Failures Due To Conditional Access Policy
-
 ## Query Information
-
 #### Description
 This visualization will return the failure types that occur in your tenant that are related to any conditional access failure. This can be used to determine which failures are related to a policy and if strange activity is being performed or if a policy needs to be tuned in a specific manner.
 #### References

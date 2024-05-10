@@ -1,5 +1,4 @@
 # ASR Executable Email Content Triggered
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

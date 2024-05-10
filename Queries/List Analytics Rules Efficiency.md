@@ -1,7 +1,5 @@
 # List Analytics Rules Efficiency 
-
 ## Query Information
-
 #### Description
 This query is aimed to improve the false positive ratio you have in Sentinel. The query list all analytics rules that have triggered the most in the selected TimeRange. These analytics rules can either be enabled ones from a template, or custom created detections. For each analytics rule the following stats are collected: 
 - TotalIncidentsTriggered

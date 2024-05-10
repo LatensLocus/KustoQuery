@@ -1,7 +1,5 @@
 # List On-boarded  Devices in Intune and MDE
-
 ## Query Information
-
 #### Description
 This query lists the devices that are on-boarded in Intune and classifies them based on the status of Defender For Endpoint. You can select your own *SearchPeriod* in this query. The MDE data is based on a process activities seen in the search window, if that is the case then the device is classified as *MDE Onboarded*. This can help determine which devices have not yet been on-boarded to MDE.
 ### References

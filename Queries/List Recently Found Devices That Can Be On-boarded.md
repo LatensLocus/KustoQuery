@@ -1,7 +1,5 @@
 # List Recently Found Devices That Can Be On-boarded
-
 ## Query Information
-
 #### Description
 This query lists devices that can be on-boarded to Defender For Endpoint and have recently been detected. You can determine what recently is by using the *RecentDetection* parameter.
 #### Risk

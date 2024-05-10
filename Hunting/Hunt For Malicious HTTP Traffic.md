@@ -1,8 +1,6 @@
 # Hunt For Malicious HTTP Traffic
-
 This Threat Hunting case is based on the DeviceNetworkEvents table. The goal is to find malicious HTTP traffic.
 ## Step 1: Summarize HTTP Methods used
-
 The first step is to investigate the amount of HTTP requests and classify them by HTTP Method. This will give insights into the behavior of your environment. 
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -31,7 +29,6 @@ DeviceNetworkEvents
 ```
 
 ## Step 2: Investigate HTTP GET Requests
-
 The next step is to dive into the files that have been downloaded with HTTP GET requests. This is done by summarizing all file extensions that have been downloaded.
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -70,7 +67,6 @@ DeviceNetworkEvents
 | sort by count_
 ```
 ## Step 3: Investigate Downloaded Executables
-
 Based on a shortlist we dive into the executable files that may contain suspicious/malicious content by listing all executable files that have been downloaded using HTTP.
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -109,7 +105,6 @@ DeviceNetworkEvents
 | project-reorder TimeGenerated, DeviceName, DownloadedContent, HTTP_Request_Method, RemoteIP
 ```
 ## Step 4: Perform File Analysis (MDE Only)
-
 If you found a suspicious file you can use the filename to investigate this file, using the FileProfile function. This enables us to list the file information (ThreatName, GlobalPrevalence, Signer) and a list with devices and file locations.
 #### Microsoft Defender For Endpoint
 ```kusto

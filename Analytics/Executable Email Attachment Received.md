@@ -1,5 +1,4 @@
 # Executable Email Attachment Received
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

@@ -1,5 +1,4 @@
 # New Authentication App Detected
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

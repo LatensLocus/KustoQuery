@@ -1,7 +1,5 @@
 # List Conditional Access Policy Addition
-
 ## Query Information
-
 #### Description
 This KQL query lists all conditional access policies that have been added.
 #### References

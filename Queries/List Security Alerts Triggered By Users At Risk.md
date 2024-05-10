@@ -1,7 +1,5 @@
 # List Security Alerts Triggered By Users At Risk
-
 ## Query Information
-
 #### Description
 This query identifies the users that are currently at risk. Based on that it performs a lookup on the security alerts that have been triggered with that user as entity. This can indicate that a user account has been compromised, because it has performed risky sign in activities as well as malicious activities defined by security products or custom detection rules. 
 #### Risk

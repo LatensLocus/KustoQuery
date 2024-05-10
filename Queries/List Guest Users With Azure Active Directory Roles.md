@@ -1,7 +1,5 @@
 # List Guest Users with Azure Active Directory Roles
-
 ## Query Information
-
 #### Description
 This query can be used to display all Guest users in the tenant who have Azure Active Directory roles. Guest users by default have different rights than normal users, at the time these Guest users get additional roles those permissions change. Therefore, the least privilege principle should be applied to Guest (and all other) users, so that these Guest users cannot access sensitive information. 
 #### Risk

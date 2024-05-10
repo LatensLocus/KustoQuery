@@ -1,7 +1,5 @@
 # Visualize MITRE ATT&CK Tactics Triggered On Microsoft Sentinel Incidents
-
 ## Query Information
-
 #### Description
 This query visualizes the incidents that have been triggered for each MITRE ATT&CK Tactic. This will give an overview of the amount of incidents that have triggered for each specific tactic. 
 #### References

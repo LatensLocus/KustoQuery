@@ -1,7 +1,6 @@
 # List Successful Sign-in From A New Country
 
 ## Query Information
-
 #### Description
 This query detects successful sign-ins from countries that have not been seen before. Depending on where you run this query the look-back period is different, Microsoft 365 Defender uses 30 days and Microsoft Sentinel uses 90 days. If you have longer retention periods it is recommended to use longer thresholds.
 #### Risk

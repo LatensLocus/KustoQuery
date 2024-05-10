@@ -1,5 +1,4 @@
 # AsyncRAT Initial Access Campaign Via OneNote Files
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

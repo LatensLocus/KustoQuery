@@ -1,7 +1,5 @@
 # List Top 10 Users With The Most IP Addresses Used To Successfully Sign-in
-
 ## Query Information
-
 #### Description
 Collect the top 10 user with the most IP used to successfully sign in to a tenant. This query displays the 10 users that have used the most IP addresses so sign in.
 

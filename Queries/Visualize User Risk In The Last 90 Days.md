@@ -1,7 +1,5 @@
 # Visualize User Risk In The Last 90 Days
-
 ## Query Information
-
 #### Description
 This visualization list the User Risk Events that have triggered in the last 90 days. The count per day is classified by the RiskEventType, those can among others be:
 - AnonymizedIPAddress

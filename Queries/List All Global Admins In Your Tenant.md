@@ -1,5 +1,4 @@
 # List All Global Admins In Your Tenant
-
 ## Query Information
 #### Description
 This query lists all accounts that have the Global Admin role assigned to their account. If you have enabled PIM, then only users that have "pimmed" to Global Admin in the search period will be shown. 

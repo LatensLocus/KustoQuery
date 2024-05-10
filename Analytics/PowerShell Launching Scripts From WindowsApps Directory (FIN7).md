@@ -1,5 +1,4 @@
 # PowerShell Launching Scripts From WindowsApps Directory (FIN7)
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

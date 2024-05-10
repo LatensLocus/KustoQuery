@@ -1,5 +1,4 @@
 # Macro Attachment Opened From Rare Sender
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

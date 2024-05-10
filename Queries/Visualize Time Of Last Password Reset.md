@@ -1,7 +1,5 @@
 # Visualize Time Of Last Password Reset
-
 ## Query Information
-
 #### Description
 Visualize the time of which a password reset has last taken place, the information is grouped in buckets of 10 days. While password expiration requirements do more harm than good it is still recommended to take a look at the accounts from which the password has not changed for years. This is due to the changes in the password policy, if the policy has been changed after the latest password change of that account is it likely that the account does not adhere to the current password policy. Every next password policy is in most cases an improvement, therefore it is expected that accounts that have not changed their password after the latest policy update do not meet the current complexity requirements.
 #### Risk

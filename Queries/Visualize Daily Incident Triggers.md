@@ -1,7 +1,5 @@
 # Visualize Daily Incident Triggers
-
 ## Query Information
-
 #### Description
 Visualize the daily triggers in MDE or Sentinel in a columnchart. This can give insight into spikes in the amount of triggers.
 ## Microsoft Defender For Endpoint

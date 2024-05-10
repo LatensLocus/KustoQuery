@@ -1,7 +1,5 @@
 # List New UserAgent Used
-
 ## Query Information
-
 #### Description
 This query can be used to detect new UserAgents that have been used to perform sign in activities (successful or failed). If you company only uses windows devices it will be interesting to investigate the other UserAgents that have been used. 
 

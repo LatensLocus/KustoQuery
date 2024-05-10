@@ -1,8 +1,6 @@
 # Hunt For Suspicious Encoded PowerShell
-
 PowerShell can be used encoded to obfuscate the commands that have been executed. An attacker can choose encoding to hide the downloading of malicious files, or to prevent simple string matching detections. In this Threat Hunting case the goal is to identify the systems that execute encoded PowerShell and to classify the traffic as benign or suspicious.
 ## Step 1: List the devices that execute encoded PowerShell
-
 In this step we list the devices that execute PowerShell by the amount of encoded PowerShell commands executed. This can give an indication on which device needs to be investigated further. 
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -33,7 +31,6 @@ DeviceProcessEvents
 | sort by TotalEncodedExecutions
 ```
 ## Step 2: Investigate encoded PowerShell commands
-
 This is done by decoding the commands in order to be investigated. This is then listed by DeviceName the amount of unique queries that have been executed in the TimeFrame. 
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -70,7 +67,6 @@ DeviceProcessEvents
 | sort by TotalUniqueEncodedCommandsExecuted
 ```
 ## Step 3: Reconnaissance Activities
-
 The next step is to investigate if reconnaissance commands have been executed. The actor can hide the reconnaissance commands encoded to stay undetected. New items can be added to the ReconVariables list.
 #### Microsoft Defender For Endpoint
 ```kusto
@@ -122,7 +118,6 @@ DeviceProcessEvents
      AccountDomain
 ```
 ## Step 4: Encoded Downloads
-
 The last step is to investigate the connections that have been made via the encoded command. This can be C2 traffic or the download of a malicious tool that can be used by the actor. 
 #### Microsoft Defender For Endpoint
 ```kusto

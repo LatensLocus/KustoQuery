@@ -1,7 +1,5 @@
 # List Statistics Of On-boarded Devices Per Operating System
-
 ## Query Information
-
 #### Description
 This query lists how many devices have been on-boarded per operating system.
 #### References

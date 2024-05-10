@@ -1,5 +1,4 @@
 # WMIC Antivirus Discovery
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

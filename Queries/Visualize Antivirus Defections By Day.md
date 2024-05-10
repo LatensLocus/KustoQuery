@@ -1,6 +1,5 @@
-# List Antivirus Detection By Day
+# Visualize Antivirus Detection By Day
 ## Query Information
-
 #### Description
 This query visualizes the daily antivirus detection, which can give an indication in anomalous amount of activities that are performed in your environment. 
 ## Microsoft Defender For Endpoint

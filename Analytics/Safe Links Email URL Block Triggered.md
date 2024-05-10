@@ -1,5 +1,4 @@
 # Safe Links Email URL Block Triggered
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

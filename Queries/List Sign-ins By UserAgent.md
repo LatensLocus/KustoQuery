@@ -1,7 +1,5 @@
 # List Sign-ins By UserAgent
-
 ## Query Information
-
 #### Description
 This query can be used to detect rare UserAgents that are used to sign into your tenant. Those rare UserAgents can be used for malicious acces into your tenant.
 
@@ -12,7 +10,6 @@ AADSignInEventsBeta
 | summarize count() by UserAgent
 | sort by count_
 ```
-
 ## Microsoft Sentinel
 ```kusto
 SigninLogs

@@ -1,5 +1,4 @@
 # Conditional Access User Sign-in Failure
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

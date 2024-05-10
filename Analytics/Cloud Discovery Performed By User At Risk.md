@@ -1,5 +1,4 @@
 # Cloud Discovery Performed By User At Risk
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

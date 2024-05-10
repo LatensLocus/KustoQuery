@@ -1,5 +1,4 @@
 # WMIC Remote Command Execution
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

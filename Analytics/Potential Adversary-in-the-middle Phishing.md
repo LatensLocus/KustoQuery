@@ -1,5 +1,4 @@
 # Potential Adversary-in-the-middle Phishing
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

@@ -1,5 +1,4 @@
 # Operation Download All Users in Azure Active Directory Performed
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

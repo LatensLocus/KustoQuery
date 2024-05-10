@@ -1,7 +1,5 @@
 # List Most Triggered Incidents
-
 ## Query Information
-
 #### Description
 The results of this query provide insight in the top 10 incidents that have triggered in your selected *timeframe*, this can give indications on which incidents should be addressed to limit potential false positives.
 ## Microsoft Defender For Endpoint

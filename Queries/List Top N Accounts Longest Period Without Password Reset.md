@@ -1,7 +1,5 @@
 # List Top N Accounts Longest Period Without Password Reset
-
 ## Query Information
-
 #### Description
 List the top N (based on *LatestNChanges*) with the longest time between now and their last password reset. While password expiration requirements do more harm than good it is still recommended to take a look at the accounts from which the password has not changed for years. This is due to the changes in the password policy, if the policy has been changed after the latest password change of that account is it likely that the account does not adhere to the current password policy. Every next password policy is in most cases an improvement, therefore it is expected that accounts that have not changed their password after the latest policy update do not meet the current complexity requirements.
 #### Risk

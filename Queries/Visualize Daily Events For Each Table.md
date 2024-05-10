@@ -1,7 +1,5 @@
 # Visualize Daily Events For Each Table
-
 ## Query Information
-
 #### Description
 In MDE or Sentinel there are plenty of tables that generate logs, in order to determine which tables ingest the most logs the queries below can be used. The *TimeRange* variable can be used to select the time range for your visualization.
 

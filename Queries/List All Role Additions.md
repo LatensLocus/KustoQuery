@@ -1,7 +1,5 @@
 # List All Role Additions
-
 ## Query Information
-
 #### Description
 This query list all role additions that have been performed in your tenant. See the Microsoft Link for the default roles that exists in Azure Active Directory. They contain reader, operator, administrator and other roles. It is good practice to gain insight into the roles that have been assigned to accounts. Based on this query you can build a detection for specific roles with high privileges such as Global Admin, Security Admin or Exchange Admin.
 #### Risk

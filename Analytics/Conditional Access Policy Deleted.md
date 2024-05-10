@@ -1,5 +1,4 @@
 # Conditional Access Policy Deleted
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

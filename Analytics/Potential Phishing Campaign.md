@@ -1,5 +1,4 @@
 # Potential Phishing Campaign
-
 ## Query Information
 
 #### MITRE ATT&CK Technique(s)

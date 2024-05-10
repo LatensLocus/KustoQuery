@@ -1,7 +1,5 @@
 # List Total Successful Sign-Ins by Browser
-
 ## Query Information
-
 #### Description
 This query lists all the different browsers that are used to successfully sign in to your Entra ID Tenant. This could be used to detect rare browsers that are used to sign into your tenant.
 ## Microsoft Defender For Endpoint

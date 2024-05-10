@@ -1,7 +1,5 @@
 # Visualize Threat Intelligence Indicators In The Last 30 Days
-
 ## Query Information
-
 #### Description
 This query visualizes the IOCs that have triggered in the last 30 days. That can for example be Domains, IP addresses or URLs. The results are rendered in a pie chart. 
 ## Microsoft Sentinel
