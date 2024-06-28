@@ -4,7 +4,7 @@
 
 | Technique ID  | Title                          |
 | ------------- | ------------------------------ |
-| [[T1204.002]] | User Execution: Malicious File |
+| T1204.002 | User Execution: Malicious File |
 #### Description
 This rule identifies malicious files that were detected by VMware Carbon Black App Control.
 #### Risk
