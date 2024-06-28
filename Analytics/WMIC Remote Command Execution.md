@@ -1,12 +1,12 @@
 # WMIC Remote Command Execution
-## Query Information
+### Query Information
 
 #### MITRE ATT&CK Technique(s)
 
 | Technique ID | Title                              |
 | ------------ | ---------------------------------- |
-| [[T1218]]    | System Binary Proxy Execution      |
-| [[T1047]]    | Windows Management Instrumentation |
+| T1218    | System Binary Proxy Execution      |
+| T1047    | Windows Management Instrumentation |
 #### Description
 Adversaries can use WMIC to remotely execute commands, WMIC has been used various times in the wild by different adversaries. WMI is an administration feature that provides a uniform environment to access Windows system components. The WMI service enables both local and remote access. WMIC has been used to call remote processes to perform lateral movement. This query detects all WMIC queries that contain a IP address, which in most cases would be a remote IP address. WMIC can perform various tasks, such as creating processes, executing remote calls and executing (remote) scripts. 
 #### Risk
@@ -15,7 +15,7 @@ An actor uses WMIC to remotely execute malicious commands.
 - https://lolbas-project.github.io/lolbas/Binaries/Wmic/
 - https://web.archive.org/web/20230728141353/https://research.nccgroup.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/
 - https://learn.microsoft.com/en-us/windows/win32/wmisdk/wmic
-## Microsoft Defender For Endpoint
+### Microsoft Defender For Endpoint
 ```kusto
 let IPRegex = '[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}';
 DeviceProcessEvents
@@ -28,7 +28,7 @@ DeviceProcessEvents
 | where not( RemoteIP in ('127.0.0.1'))
 | project Timestamp, DeviceName, ProcessCommandLine, RemoteIP
 ```
-## Microsoft Sentinel
+### Microsoft Sentinel
 ```kusto
 let IPRegex = '[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}';
 DeviceProcessEvents
@@ -41,5 +41,3 @@ DeviceProcessEvents
 | where not( RemoteIP in ('127.0.0.1'))
 | project TimeGenerated, DeviceName, ProcessCommandLine, RemoteIP
 ```
-## Tags
-- [[KQL]] [[MITRE ATT&CK]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
