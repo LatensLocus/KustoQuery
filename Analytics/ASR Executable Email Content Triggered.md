@@ -5,7 +5,7 @@
 
 | Technique ID  | Title                              |
 | ------------- | ---------------------------------- |
-| [[T1566.001]] | Phishing: Spearphishing Attachment |
+| T1566.001 | Phishing: Spearphishing Attachment |
 #### Description
 The ASR rule in this query has the following description: This rule blocks the following file types from launching from email opened within the Microsoft Outlook application, or Outlook.com and other popular web-mail providers:
 
@@ -46,5 +46,3 @@ DeviceEvents
      on $left.NetworkMessageId == $right.NetworkMessageId
 | project-reorder SenderFromAddress, Subject, FileName, FileSize, SHA256
 ```
-## Tags
-- [[KQL]] [[MITRE ATT&CK]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
