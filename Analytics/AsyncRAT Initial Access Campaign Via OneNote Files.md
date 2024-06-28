@@ -5,7 +5,7 @@
 
 | Technique ID  | Title                              |
 | ------------- | ---------------------------------- |
-| [[T1566.001]] | Phishing: Spearphishing Attachment |
+| T1566.001 | Phishing: Spearphishing Attachment |
 #### Description
 In recent days there has been a increase in malicious OneNote files to deliver AsyncRAT. This query can be used to start a hunt for malicious files in your environment. The OneNote files have to be delivered by mail and have to be opened in order to pop-up in the results of this query. This will indicate that a user has opened the attachment from the mail. From there a investigation needs to be started to determine if the file is benign or malicious. 
 
@@ -46,5 +46,3 @@ EmailEvents
      | project DeviceName, SHA256, FolderPath)
      on SHA256
 ```
-## Tags
-- [[KQL]] [[MITRE ATT&CK]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
