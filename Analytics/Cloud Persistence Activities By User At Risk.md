@@ -1,12 +1,12 @@
 # Cloud Persistence Activities By User At Risk
-## Query Information
-### MITRE ATT&CK Technique(s)
+### Query Information
+#### MITRE ATT&CK Technique(s)
 
 | Technique ID  | Title                          |
 | ------------- | ------------------------------ |
 | T1136.003 | Create Account: Cloud Account  |
 | T1078.004 | Valid Accounts: Cloud Accounts |
-### Description
+#### Description
 This query detects Persistence events that have been performed by a user at risk, this is done based on the subset PersistenceEvents. You can add other items to the list if you feel the need to do so, because the list is currently limited. If you think additions are needed please raise a pull request. 
 
 The persistence events are related to adding groups, devices, service principles and users to your tenant. An adversary can perform those activities to ensure that he will keep access to the environment. He can add external users or add a new device, which can then be user to sign in from.
@@ -14,13 +14,13 @@ The persistence events are related to adding groups, devices, service principles
 A false positive can be a administrator that triggered a risky event, after that he performed benign administrative task which would trigger this incident. 
 #### Risk
 A user at risk that also performs persistence events is more likely to be compromised. Investigate the useraccount in more detail and disable the user if malicious activity is confirmed. 
-### References
+#### References
 - https://learn.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-remediate-unblock
 - https://learn.microsoft.com/en-us/azure/active-directory/authentication/tutorial-risk-based-sspr-mfa
 - https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/
 - https://www.microsoft.com/en-us/security/blog/2021/10/25/nobelium-targeting-delegated-administrative-privileges-to-facilitate-broader-attacks/
 - https://www.microsoft.com/en-us/security/blog/2022/03/22/dev-0537-criminal-actor-targeting-organizations-for-data-exfiltration-and-destruction/
-## Microsoft Sentinel
+### Microsoft Sentinel
 ```kusto
 // Define PersistenceEvents, list can be appended with other events or your choosing
 let PersistenceEvents = dynamic(["add member", "add device", "register device", "add service principal", "update service principal", "add user", "enable account", "add group", "Invite external user", "Add application", "add app"]);
