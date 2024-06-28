@@ -4,7 +4,7 @@
 
 | Technique ID | Title                      |
 | ------------ | -------------------------- |
-| [[T1137]]    | Office Application Startup |
+| T1137 | Office Application Startup |
 #### Description
 The description of this ASR rule: This rule prevents Office apps, including Word, Excel, and PowerPoint, from creating potentially malicious executable content, by blocking malicious code from being written to disk.Malware that abuses Office as a vector might attempt to break out of Office and save malicious components to disk. These malicious components would survive a computer reboot and persist on the system. Therefore, this rule defends against a common persistence technique.
 
@@ -36,5 +36,3 @@ DeviceEvents
 | invoke FileProfile('SHA1', 10000)
 | project TimeGenerated, DeviceName, InitiatingProcessAccountUpn, FileName, FolderPath, ActionType, SHA1, InitiatingProcessCommandLine, InitiatingProcessFolderPath
 ```
-## Tags
-- [[KQL]] [[MITRE ATT&CK]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
