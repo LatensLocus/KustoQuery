@@ -4,7 +4,7 @@
 
 | Technique ID  | Title                          |
 | ------------- | ------------------------------ |
-| [[T1204.002]] | User Execution: Malicious File |
+| T1204.002 | User Execution: Malicious File |
 #### Description
 This query lists all Adware events that Symantec Endpoint Protection detected but did not block and a summary count of unique alerts for a given time frame.
 #### References
