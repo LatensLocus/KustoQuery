@@ -5,7 +5,7 @@
 
 | Technique ID  | Title                                     |
 | ------------- | ----------------------------------------- |
-| [[T1069.003]] | Permission Groups Discovery: Cloud Groups |
+| T1069.003 | Permission Groups Discovery: Cloud Groups |
 #### Description
 This query detects discovery events that have been performed by a user at risk, this is done based on the subset *DiscoveryEvents*. You can add other items to the list if you feel the need to do so, because the list is currently limited. If you think additions are needed please raise a pull request. 
 
@@ -33,5 +33,3 @@ AuditLogs
 | project TimeGenerated, Identity, OperationName, Category, 
 ResultDescription, Result
 ```
-## Tags
-- [[KQL]] [[MITRE ATT&CK]] [[Microsoft Sentinel]]
