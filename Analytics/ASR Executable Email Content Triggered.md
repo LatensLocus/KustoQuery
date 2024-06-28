@@ -1,5 +1,5 @@
 # ASR Executable Email Content Triggered
-## Query Information
+### Query Information
 
 #### MITRE ATT&CK Technique(s)
 
@@ -18,7 +18,7 @@ If this rule is on block mode the action is blocked, if the rule is on audit mod
 #### References
 - https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/attack-surface-reduction-rules-reference?view=o365-worldwide
 - https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
-## Microsoft Defender For Endpoint
+### Microsoft Defender For Endpoint
 ```kusto
 DeviceEvents
 | where ActionType in ("AsrExecutableEmailContentBlocked", "AsrExecutableEmailContentAudited")
@@ -32,7 +32,7 @@ DeviceEvents
      on $left.NetworkMessageId == $right.NetworkMessageId
 | project-reorder SenderFromAddress, Subject, FileName, FileSize, SHA256
 ```
-## Microsoft Sentinel
+### Microsoft Sentinel
 ```kusto
 DeviceEvents
 | where ActionType in ("AsrExecutableEmailContentBlocked", "AsrExecutableEmailContentAudited")
