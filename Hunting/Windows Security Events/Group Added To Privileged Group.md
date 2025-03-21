@@ -1,4 +1,4 @@
-# Group Added To Privileged Group
+# New Group Added To Privileged Group
 ### Description
 A Group created in the last 7 days was added to a privileged built in domain local group or global group such as the Enterprise Admins, Cert Publishers or DnsAdmins.  Be sure to verify this is an expected addition.
 ### References
