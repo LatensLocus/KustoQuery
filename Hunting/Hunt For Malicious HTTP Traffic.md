@@ -129,5 +129,3 @@ DeviceFileEvents
      DeviceList,
      FileLocations
 ```
-## Tags
-- [[KQL]] [[Microsoft Defender for Endpoint]] [[Microsoft Sentinel]]
