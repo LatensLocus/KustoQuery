@@ -12,5 +12,3 @@ Anomalies
 | project-rename ['Anomaly Reason'] = Description
 | project-reorder TimeGenerated, ['Anomaly Reason'], Entities, RuleName, Tactics
 ```
-## Tags
-- [[KQL]] [[Microsoft Sentinel]]
